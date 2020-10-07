@@ -1,0 +1,159 @@
+body{
+    font-family: 'Spartan';
+    align-items: center;
+    margin: 50px 0;
+    width: 100%;
+    background: url(/images/bg-pattern-bottom-desktop.svg) bottom right no-repeat,
+                url(/images/bg-pattern-top-desktop.svg) no-repeat;
+}
+.about-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.about{
+    width: 50%;
+}
+.about-text{
+    width: 50%;
+    margin-left: 225px;
+}
+.about-text h1{
+    color: #502050;
+    font-size: 40px;
+}
+.about-text p{
+    color: #937b92;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+.star{
+    width: 50%;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    border: solid #f7f2f7;
+    border-radius: 7px;
+    padding: 5px 30px;
+    background-color: #f7f2f7;
+    margin-bottom: 20px;
+    width: 50%;
+}
+.rating p{
+    margin-left: 30px;
+    color: #502050;
+    font-size: 13px;
+    font-weight: bold;
+}
+.ratingOne{
+    margin-left: 20px;
+}
+.ratingTwo{
+    margin-left: 60px;
+}
+.ratingThree{
+    margin-left: 110px;
+}
+.buyers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-buyer{
+    border: solid #502050;
+    border-radius: 7px;
+    width: 20%;
+    background-color: #502050;
+    padding: 20px 15px;
+    margin: 60px 40px 60px 0;
+}
+.about-buyer img{
+    border-radius: 50%;
+    width: 35px;
+}
+.about-buyer h5{
+    margin: 0px;
+    color: white;
+    margin-left: 25px;
+}
+.about-buyer .verifiedBuyer{
+    color: #ee68a4;
+    font-weight: 100;
+    margin-top: 3px;
+    
+}
+.about-buyer p{
+    color: white;
+    font-weight: 100;
+    font-size: 13px;
+    line-height: 1.5em;
+    margin-top: 50px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.buyerTwo{
+    margin-bottom: 15px;
+}
+.buyerThree{
+    margin-bottom: -30px;
+    margin-right: 0;
+}
+.attribution{
+    margin-top: 33px;
+    text-align: center;
+}
+@media screen and (max-width: 414px){
+    body{
+        width: 100%;
+        background: url(/images/bg-pattern-bottom-mobile.svg) bottom right no-repeat,
+                url(/images/bg-pattern-top-mobile.svg) no-repeat;
+        text-align: center;
+        margin: 70px 0;
+    }
+    .about-section{
+        display: block;
+        text-align: center;
+        width: unset;
+        margin: 20px;
+    }
+    .about{
+        width: unset;
+    }
+    .about-text{
+        width: 100%;
+        margin: 0;
+    }
+    .about-text h1{
+        font-size: 30px;
+    }
+    .about-text p{
+        font-size: 14.5px;
+    }
+    .star{
+        width: unset;
+    }
+    .rating{
+        display: block;
+        text-align: center;
+        width: unset;
+    }
+    .rating p{
+        margin-left: 0px;
+    }
+    .ratingOne, .ratingTwo, .ratingThree{
+        margin: 20px 0;
+    }
+    .buyers{
+        display: block;
+        margin: 20px;
+    }
+    .about-buyer{
+        width: unset;
+        margin: 60px 0;
+    }
+}
